@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList", "TodoList\TodoList.csproj", "{75E0743C-4C8A-412A-A236-53FBF5E39D9B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoList.Data.Model", "TodoList.Data.Model\TodoList.Data.Model.csproj", "{A6FFCB10-8CF2-4E24-A021-D7CC385451DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{75E0743C-4C8A-412A-A236-53FBF5E39D9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{75E0743C-4C8A-412A-A236-53FBF5E39D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{75E0743C-4C8A-412A-A236-53FBF5E39D9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FFCB10-8CF2-4E24-A021-D7CC385451DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FFCB10-8CF2-4E24-A021-D7CC385451DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FFCB10-8CF2-4E24-A021-D7CC385451DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FFCB10-8CF2-4E24-A021-D7CC385451DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
