@@ -317,6 +317,10 @@
       <Project>{a6ffcb10-8cf2-4e24-a021-d7cc385451db}</Project>
       <Name>TodoList.Data.Model</Name>
     </ProjectReference>
+    <ProjectReference Include="..\TodoList.Data\TodoList.Data.csproj">
+      <Project>{bc88e15b-3abe-4dec-ad44-b42c519e1e00}</Project>
+      <Name>TodoList.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
