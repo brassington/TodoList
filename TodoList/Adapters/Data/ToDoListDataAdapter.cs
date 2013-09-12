@@ -7,13 +7,13 @@ using TodoList.Models;
 
 namespace TodoList.Adapters.Data
 {
-    public class ToDoListDataAdapter : IToDoListAdapter
-    {
+    //public class ToDoListDataAdapter : IToDoListAdapter
+    //{
 
-        public ToDoListViewModel GetToDoListViewModel()
-        {
-            var model = new ToDoListViewModel();
+    //    public ToDoListViewModel GetToDoListViewModel()
+    //    {
+    //    //    var model = new ToDoListViewModel();
  
-        }
-    }
+    //    }
+    //}
 }
