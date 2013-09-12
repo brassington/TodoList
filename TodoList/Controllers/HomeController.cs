@@ -6,12 +6,18 @@ using System.Web.Mvc;
 using TodoList.Adapters.Interfaces;
 using TodoList.Adapters.Mock;
 using TodoList.Data.Model;
+using TodoList.Models;
 
 namespace TodoList.Controllers
 {
     public class HomeController : Controller
     {
         private IToDoListAdapter _adapter;
+
+        //public HomeController(IToDoListAdapter adapter)
+        //{
+        //    _adapter = adapter;
+        //}
 
         public HomeController()
         {

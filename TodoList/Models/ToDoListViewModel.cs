@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using TodoList.Data.Model;
 
-namespace TodoList.Adapters.Interfaces
+namespace TodoList.Models
 {
     public class ToDoListViewModel
     {

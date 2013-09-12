@@ -1,4 +1,5 @@
 ﻿@model TodoList.Models.ToDoListViewModel
+
 @{
     ViewBag.Title = "Home Page";
 }
@@ -21,13 +22,13 @@
 }
 <h3>We suggest the following:</h3>
 <ol class="round">
-    @foreach (var item in Model.Task)
+    @foreach (var task in Model.Task)
     {
         <li class="one">
-        <h5>@item.TaskName</h5>
-        @item.TaskDescription
+        <h5>@task.TaskName</h5>
+        @task.TaskDescription
         <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Learn more…</a>
-    </li>
+        </li>
     }
     
     </li>
