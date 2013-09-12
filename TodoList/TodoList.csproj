@@ -176,6 +176,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapters\Interfaces\IToDoListAdapter.cs" />
+    <Compile Include="Adapters\Mock\ToDoListMockAdapter.cs" />
+    <Compile Include="Models\ToDoListViewModel.cs" />
     <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -303,10 +306,17 @@
     <Content Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Adapters\Data\" />
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TodoList.Data.Model\TodoList.Data.Model.csproj">
+      <Project>{a6ffcb10-8cf2-4e24-a021-d7cc385451db}</Project>
+      <Name>TodoList.Data.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
