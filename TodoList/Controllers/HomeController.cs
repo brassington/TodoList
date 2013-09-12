@@ -3,16 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using TodoList.Adapters.Interfaces;
+using TodoList.Adapters.Mock;
+using TodoList.Data.Model;
 
 namespace TodoList.Controllers
 {
     public class HomeController : Controller
     {
+        private IToDoListAdapter _adapter;
+
+        public HomeController()
+        {
+            _adapter = new ToDoListMockAdapter();
+        }
+
         public ActionResult Index()
         {
+            ToDoListViewModel model = _adapter.GetToDoListViewModel();
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
 
-            return View();
+            return View(model);
         }
 
         public ActionResult About()
