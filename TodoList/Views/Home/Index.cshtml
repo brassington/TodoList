@@ -22,14 +22,9 @@
 }
 <h3>We suggest the following:</h3>
 <ol class="round">
-    @foreach (var task in Model.Task)
-    {
         <li class="one">
-        <h5>@task.TaskName</h5>
-        @task.TaskDescription
+        <h5>@Model.Task.TaskName</h5>
+        @Model.Task.TaskDescription
         <a href="http://go.microsoft.com/fwlink/?LinkId=245151">Learn more…</a>
-        </li>
-    }
-    
-    </li>
+        </li>  
 </ol>
