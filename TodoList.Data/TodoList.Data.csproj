@@ -44,9 +44,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201309122232161_InitializeDB.cs" />
-    <Compile Include="Migrations\201309122232161_InitializeDB.Designer.cs">
-      <DependentUpon>201309122232161_InitializeDB.cs</DependentUpon>
+    <Compile Include="Migrations\201309122323138_InitializeDB.cs" />
+    <Compile Include="Migrations\201309122323138_InitializeDB.Designer.cs">
+      <DependentUpon>201309122323138_InitializeDB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Seeder.cs" />
@@ -64,8 +64,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201309122232161_InitializeDB.resx">
-      <DependentUpon>201309122232161_InitializeDB.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201309122323138_InitializeDB.resx">
+      <DependentUpon>201309122323138_InitializeDB.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

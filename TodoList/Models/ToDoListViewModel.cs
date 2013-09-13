@@ -10,5 +10,6 @@ namespace TodoList.Models
     {
         public int TaskId { get; set; }
         public Task Task { get; set; }
+        public List<Task> Tasks { get; set; }
     }
 }
