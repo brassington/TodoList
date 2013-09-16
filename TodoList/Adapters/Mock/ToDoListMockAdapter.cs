@@ -19,7 +19,7 @@ namespace TodoList.Adapters.Mock
             Task task = new Task
             {
                 TaskId = 1,
-                TaskName = "Blowdry Hair",
+                TaskName = "Straighten hair",
                 TaskDescription = "Drying my hair while using an electric appliance.",
                 TaskBegin = DateTime.Now,
                 TaskEnd = DateTime.Now.AddDays(1),
